@@ -4,5 +4,5 @@ for i in range(0, 1000):
         S = S+i
     else:
         if i % 5 == 0:
-            S= S+i
+            S = S+i
 print(S)
