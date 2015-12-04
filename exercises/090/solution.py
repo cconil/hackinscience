@@ -1,3 +1,4 @@
 import sys
 liste = sys.argv
-print(list(enumerate(liste)))
+for i in list(enumerate(liste)):
+    print(i)
