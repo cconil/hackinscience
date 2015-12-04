@@ -2,12 +2,8 @@ def sort_a_list(list):
     return(sorted(list, reverse=True))
 
 
-
-
 def sort_by_mark(list):
     return(sorted(list, reverse=True))
-
-
 
 
 from operator import itemgetter
