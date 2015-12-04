@@ -9,3 +9,5 @@ def sort_by_mark(list):
 from operator import itemgetter
 def sort_by_name(list):
     return(sorted(list, key=itemgetter(1)))
+
+
