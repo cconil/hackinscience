@@ -34,6 +34,8 @@ velib = [{
         'name': 'DE GAULLE (PANTIN)-',
         'longitude': 2.412715733388685
     }]
+
+
 def check_my_city(city_name):
     if city_name in velib:
         return (velib['stations_nb'], velib['zip_code'], velib['city'])
