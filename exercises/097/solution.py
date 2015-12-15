@@ -1,9 +1,10 @@
 def love_meet(bob, alice):
-    for i in set(alice) & set(bob):
-        print(i)
+    A = set(alice) & set(bob)
+    return(A)
 
 
 def affair_meet(bob, alice, silvester):
-    for i in set(alice) & set(silvester):
-        if i not in set(bob):
-            print(i)
+    A = set(alice) & set(silvester)
+    B = set(bob)
+    C = A - B
+    return(C)
